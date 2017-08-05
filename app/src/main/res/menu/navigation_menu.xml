@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_action_home"
+            android:id="@+id/home"
+            android:title="Home"
+            />
+    <item
+        android:icon="@drawable/ic_action_list"
+        android:id="@+id/list"
+        android:title="Text List"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_action_pdf"
+            android:id="@+id/pdf"
+            android:title="PDF"
+            />
+    </group>
+
+</menu>

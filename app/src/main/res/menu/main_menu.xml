@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/faq"
+        android:title="FAQ"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="Info"
+        app:showAsAction="never"
+        />
+
+        <menu>
+            <item
+                android:title="Sort by New"
+                android:id="@+id/new_first"/>
+            <item
+                android:id="@+id/old_first"
+                android:title="Sort by old"
+                />
+        </menu>
+
+
+</menu>
